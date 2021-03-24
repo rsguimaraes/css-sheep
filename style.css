@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: #243D83;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sheep {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+
+}
+
+.body {
+    height: 8rem;
+    width: 8rem;
+    background-color: #6592CF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.wool {
+    height: 4.3rem;
+    width: 3.6rem;
+    background-color: #6592CF;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+}
+
+.w-1 {
+    transform: rotate(93deg);
+    bottom: 6.2rem;
+}
+
+.w-2 {
+    transform: rotate(28deg);
+    top: 1rem;
+    right: 6.2rem;
+}
+
+.w-3 {
+    transform: rotate(-28deg);
+    top: 1rem;
+    left: 6.2rem;
+}
+
+.w-4 {
+    transform: rotate(7deg);
+    bottom: 2rem;
+    left: 7.5rem;
+}
+
+.w-5 {
+    transform: rotate(-7deg);
+    bottom: 2rem;
+    right: 7.5rem;
+}
+
+.w-6 {
+    transform: rotate(67deg);
+    top: 6.8rem;
+    left: 6rem;
+}
+
+.w-7 {
+    transform: rotate(-67deg);
+    top: 6.8rem;
+    right: 6rem;
+}
+
+.w-8 {
+    transform: rotate(93deg);
+    top: 8.1rem;
+}
+
+.ear-left {
+    left: 0.1rem;
+}
+
+.ear-right {
+    right: 0.1rem;
+}
+
+.ear-center {
+    top: 0.3rem;
+}
+
+.face {
+    height: 3.6rem;
+    width: 3.5rem;
+    background-color: #243D83;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+
+.eyes {
+    height: 0.6rem;
+    width: 0.6rem;
+    background-color: #6592CF;
+    border-radius: 50%;
+    position: absolute
+}
+
+.eye-left {
+    top: 1rem;
+    left: 0.7rem
+}
+
+.eye-right {
+    top: 1rem;
+    right: 0.7rem
+}
